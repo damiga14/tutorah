@@ -8,6 +8,6 @@ module.exports = {
 
                 res.status(200).json({ message: 'Oradores loaded!', data: result }) 
             })
-            .catch((err) => {console.log(err); res.status(400).json({ message: 'I am Error / Oradores not loaded', data: err }) })
+            .catch((err) => {console.log(err); res.status(400).json({ message: 'I am Error / Oradores not loaded :(', data: err }) })
     }
 }
